@@ -11,11 +11,11 @@ oriented = function(e) {
          //text_area.textContent = compassHeading;
 
          if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = compassHeading;
+                text_area.textContent = "To the Novelist, an empty sleeper.";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "To the Echo, a traffic light.";
+                text_area.textContent = "To the Echo, a traitor Lily.";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
