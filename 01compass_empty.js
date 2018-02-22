@@ -14,16 +14,20 @@ oriented = function(e) {
                 text_area.textContent = "To the Novelist, an empty sleeper.";
         }
 
-        if(compassHeading >= 45 && compassHeading < 135) {
+        if(compassHeading >= 45 && compassHeading < 90) {
                 text_area.textContent = "To the Echo, a traitor Lily.";
         }
 
-        if(compassHeading >= 135 && compassHeading < 225) {
+        if(compassHeading >= 90 && compassHeading < 200) {
                 text_area.textContent = "To the Spasm, a mask.";
         }
 
-        if(compassHeading >= 225 && compassHeading < 315) {
+        if(compassHeading >= 200 && compassHeading < 270) {
                 text_area.textContent = "To the Whisky, a goodbye.";
+        }
+
+        if(compassHeading >= 270 && compassHeading < 315) {
+                text_area.textContent = "In the cerebrum, a pall of black hells.";
         }
 
         //calls function to alter content based on heading
